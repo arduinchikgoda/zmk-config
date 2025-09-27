@@ -64,10 +64,10 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&kp TAB         &kp EXCL    &kp AT       &kp HASH         &kp DLLR  &kp PRCNT    &kp CARET  &kp AMPS   &kp ASTRK  &kp LPAR  &kp RPAR  &kp BSPC
-&kp LEFT_SHIFT  &sys_reset  &bootloader  &kp C_AL_COFFEE  &trans    &trans       &kp UNDER  &kp EQUAL  &kp LBKT   &kp RBKT  &kp BSLH  &kp GRAVE
-&kp LCTRL       &trans      &trans       &trans           &trans    &trans       &kp MINUS  &kp PLUS   &kp LBRC   &kp RBRC  &kp PIPE  &kp TILDE
-                                         &kp LGUI         &kp LALT  &kp SPACE    &kp SPACE  &trans     &trans
+&kp TAB         &kp EXCL  &kp AT  &kp HASH  &kp DLLR  &kp PRCNT    &kp CARET  &kp AMPS   &kp ASTRK  &kp LPAR  &kp RPAR  &kp BSPC
+&kp LEFT_SHIFT  &none     &none   &none     &trans    &trans       &kp UNDER  &kp EQUAL  &kp LBKT   &kp RBKT  &kp BSLH  &kp GRAVE
+&kp LCTRL       &trans    &trans  &trans    &trans    &trans       &kp MINUS  &kp PLUS   &kp LBRC   &kp RBRC  &kp PIPE  &kp TILDE
+                                  &kp LGUI  &kp LALT  &kp SPACE    &kp SPACE  &trans     &trans
             >;
         };
     };
