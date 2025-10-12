@@ -15,6 +15,11 @@
             bindings = <&kp RIGHT_BRACKET>;
             key-positions = <20 21>;
         };
+
+        cs {
+            bindings = <&sl 3>;
+            key-positions = <26 13>;
+        };
     };
 
     keymap {
@@ -68,6 +73,15 @@
 &kp LEFT_SHIFT  &none     &none   &none     &trans    &trans       &kp UNDER  &kp EQUAL  &kp LBKT   &kp RBKT  &kp BSLH  &kp GRAVE
 &kp LCTRL       &trans    &trans  &trans    &trans    &trans       &kp MINUS  &kp PLUS   &kp LBRC   &kp RBRC  &kp PIPE  &kp TILDE
                                   &kp LGUI  &kp LALT  &kp SPACE    &kp SPACE  &trans     &trans
+            >;
+        };
+
+        layer_3 {
+            bindings = <
+&kp ESC    &kp Q  &kp W  &kp E     &kp R    &kp T        &trans  &trans  &trans  &trans  &trans  &trans
+&kp LSHFT  &kp A  &kp S  &kp D     &kp F    &kp G        &trans  &trans  &trans  &trans  &trans  &trans
+&kp LCTRL  &kp Z  &kp X  &kp C     &kp V    &kp B        &trans  &trans  &trans  &trans  &trans  &trans
+                         &kp LGUI  &kp TAB  &kp SPACE    &trans  &trans  &trans
             >;
         };
     };
